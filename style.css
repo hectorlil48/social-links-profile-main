@@ -18,6 +18,7 @@ body {
   min-height: 100vh;
   background-color: var(--off-black);
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   font-family: "Inter", sans-serif;
@@ -94,10 +95,12 @@ ul {
   }
 }
 
-/* .attribution {
+.attribution {
   font-size: 11px;
+  color: var(--white);
   text-align: center;
+  margin-top: 10px;
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
-} */
+  color: var(--green);
+}
